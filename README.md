@@ -49,6 +49,8 @@ A Streamlit web application was developed to allow users to enter patient inform
 Logistic Regression was selected as the final model because it achieved the highest Recall score after applying SMOTE. In healthcare applications, minimizing missed stroke cases is more important than maximizing overall accuracy.
 
 ---
+## Live Demo
+https://stroke-risk-prediction-system.streamlit.app/
 
 ## 📸 Application Screenshot
 
@@ -110,11 +112,11 @@ streamlit run app.py
 
 ## 🎯 Future Enhancements
 
-- Deploy the application on Streamlit Cloud
-- Add user authentication
 - Integrate real-time healthcare datasets
+- Add user authentication and patient history tracking
 - Improve model performance with advanced ensemble methods
-- Create a dashboard for patient analytics
+- Create an analytics dashboard for healthcare insights
+- Deploy the application using Docker and cloud infrastructure
 
 ---
 
